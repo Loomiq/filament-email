@@ -2,12 +2,12 @@
 
 use Faker\Factory;
 use Illuminate\Support\Facades\Mail;
+use Loomiq\FilamentEmail\Filament\Resources\EmailResource\Pages\ListEmails;
+use Loomiq\FilamentEmail\Models\Email;
 use function Pest\Laravel\assertDatabaseCount;
 use function Pest\Laravel\assertModelExists;
 use function Pest\Livewire\livewire;
 use function PHPUnit\Framework\assertEquals;
-use Loomiq\FilamentEmail\Filament\Resources\EmailResource\Pages\ListEmails;
-use Loomiq\FilamentEmail\Models\Email;
 
 it('can create an Email model', function () {
     $emailModel = Email::factory()->create();

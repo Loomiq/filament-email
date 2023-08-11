@@ -15,11 +15,11 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Foundation\Application;
 use Livewire\LivewireServiceProvider;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Loomiq\FilamentEmail\FilamentEmailServiceProvider;
 use Loomiq\FilamentEmail\Providers\EmailMessageServiceProvider;
 use Loomiq\FilamentEmail\Tests\Models\User;
 use Loomiq\FilamentEmail\Tests\Panels\TestPanelProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
