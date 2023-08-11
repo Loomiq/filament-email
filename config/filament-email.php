@@ -9,6 +9,8 @@ return [
             'in_navigation_group' => true,
             'navigation_sort' => 1,
             'show_integrations_button' => true,
+            'default_sort_column' => 'created_at',
+            'default_sort_direction' => 'desc',
         ],
         'integrations' => [
             'should_register_navigation' => true,

@@ -111,7 +111,7 @@ class EmailResource extends Resource
                     ->searchable(),
 
             ])
-            ->defaultSort('created_at', 'desc')
+            ->defaultSort(config('filament-email.resources.emails.default_sort_column'), config('filament-email.resources.emails.default_sort_direction'))
             ->actions([
                 Action::make('preview')
                     ->label('Preview')
