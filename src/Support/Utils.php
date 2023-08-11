@@ -1,6 +1,6 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Support;
+namespace Loomiq\FilamentEmail\Support;
 
 class Utils
 {

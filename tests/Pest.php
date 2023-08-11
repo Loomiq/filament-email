@@ -1,3 +1,3 @@
 <?php
 
-uses(\RickDBCN\FilamentEmail\Tests\TestCase::class)->in(__DIR__);
+uses(\Loomiq\FilamentEmail\Tests\TestCase::class)->in(__DIR__);

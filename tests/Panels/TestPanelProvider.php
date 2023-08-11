@@ -1,6 +1,6 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Tests\Panels;
+namespace Loomiq\FilamentEmail\Tests\Panels;
 
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
@@ -13,7 +13,7 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\AuthenticateSession;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
-use RickDBCN\FilamentEmail\FilamentEmailPlugin;
+use Loomiq\FilamentEmail\FilamentEmailPlugin;
 
 class TestPanelProvider extends PanelProvider
 {

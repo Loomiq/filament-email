@@ -1,17 +1,23 @@
 {
-    "name": "rickdbcn/filament-email",
+    "name": "loomiq/filament-email",
     "description": "Control everything regarding emails in one place.",
     "keywords": [
-        "RickDBCN",
+        "Loomiq",
         "laravel",
+        "filament",
         "filament-email"
     ],
-    "homepage": "https://github.com/rickdbcn/filament-email",
+    "homepage": "https://github.com/Loomiq/filament-email",
     "license": "MIT",
     "authors": [
         {
+            "name": "Thijmen Kort",
+            "email": "t.kort@soer.nl",
+            "role": "Developer"
+        },
+        {
             "name": "Rick de Boer",
-            "email": "rickdb@calvintijd.nl",
+            "email": "r.deboer@soer.nl",
             "role": "Developer"
         }
     ],
@@ -33,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "RickDBCN\\FilamentEmail\\": "src/",
-            "RickDBCN\\FilamentEmail\\Database\\Factories\\": "database/factories/"
+            "Loomiq\\FilamentEmail\\": "src/",
+            "Loomiq\\FilamentEmail\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RickDBCN\\FilamentEmail\\Tests\\": "tests/"
+            "Loomiq\\FilamentEmail\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -59,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RickDBCN\\FilamentEmail\\FilamentEmailServiceProvider"
+                "Loomiq\\FilamentEmail\\FilamentEmailServiceProvider"
             ],
             "aliases": {
-                "FilamentEmail": "RickDBCN\\FilamentEmail\\Facades\\FilamentEmail"
+                "FilamentEmail": "Loomiq\\FilamentEmail\\Facades\\FilamentEmail"
             }
         }
     },

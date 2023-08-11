@@ -1,6 +1,6 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Commands;
+namespace Loomiq\FilamentEmail\Commands;
 
 use Illuminate\Console\Command;
 

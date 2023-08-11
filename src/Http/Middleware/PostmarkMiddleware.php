@@ -1,6 +1,6 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Http\Middleware;
+namespace Loomiq\FilamentEmail\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

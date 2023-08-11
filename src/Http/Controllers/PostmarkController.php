@@ -1,6 +1,6 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Http\Controllers;
+namespace Loomiq\FilamentEmail\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 

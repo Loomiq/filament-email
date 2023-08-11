@@ -1,9 +1,9 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Filament\Resources\EmailResource\Widgets;
+namespace Loomiq\FilamentEmail\Filament\Resources\EmailResource\Widgets;
 
 use Filament\Widgets\Widget;
-use RickDBCN\FilamentEmail\Models\Email;
+use Loomiq\FilamentEmail\Models\Email;
 
 class ModelLogWidget extends Widget
 {

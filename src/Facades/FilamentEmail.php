@@ -1,16 +1,16 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Facades;
+namespace Loomiq\FilamentEmail\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \RickDBCN\FilamentEmail\FilamentEmailPlugin
+ * @see \Loomiq\FilamentEmail\FilamentEmailPlugin
  */
 class FilamentEmail extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \RickDBCN\FilamentEmail\FilamentEmailPlugin::class;
+        return \Loomiq\FilamentEmail\FilamentEmailPlugin::class;
     }
 }

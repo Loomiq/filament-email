@@ -11,7 +11,7 @@ Log all outgoing emails in your Laravel project within your Filament panel. You 
 You can install the package via composer:
 
 ```bash
-composer require rickdbcn/filament-email
+composer require loomiq/filament-email
 ```
 
 Publish and run the migrations with
@@ -31,7 +31,7 @@ Register the plugin through your panel service provider:
 
 ```php
 // add this within return $panel:
-->plugin(new \RickDBCN\FilamentEmail\FilamentEmailPlugin())
+->plugin(\Loomiq\FilamentEmail\FilamentEmailPlugin::make)
 ```
 
 

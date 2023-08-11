@@ -1,6 +1,6 @@
 <?php
 
-// config for RickDBCN/FilamentEmail
+// config for Loomiq/FilamentEmail
 return [
     'resources' => [
         'emails' => [

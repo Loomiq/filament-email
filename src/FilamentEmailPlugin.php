@@ -1,12 +1,12 @@
 <?php
 
-namespace RickDBCN\FilamentEmail;
+namespace Loomiq\FilamentEmail;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
-use RickDBCN\FilamentEmail\Filament\Resources\EmailResource;
-use RickDBCN\FilamentEmail\Filament\Resources\EmailResource\Widgets\ModelLogWidget;
-use RickDBCN\FilamentEmail\Filament\Resources\IntegrationResource;
+use Loomiq\FilamentEmail\Filament\Resources\EmailResource;
+use Loomiq\FilamentEmail\Filament\Resources\EmailResource\Widgets\ModelLogWidget;
+use Loomiq\FilamentEmail\Filament\Resources\IntegrationResource;
 
 class FilamentEmailPlugin implements Plugin
 {

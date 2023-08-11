@@ -1,10 +1,10 @@
 <?php
 
-namespace RickDBCN\FilamentEmail;
+namespace Loomiq\FilamentEmail;
 
 use Illuminate\Routing\Router;
-use RickDBCN\FilamentEmail\Http\Middleware\PostmarkMiddleware;
-use RickDBCN\FilamentEmail\Providers\EmailMessageServiceProvider;
+use Loomiq\FilamentEmail\Http\Middleware\PostmarkMiddleware;
+use Loomiq\FilamentEmail\Providers\EmailMessageServiceProvider;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

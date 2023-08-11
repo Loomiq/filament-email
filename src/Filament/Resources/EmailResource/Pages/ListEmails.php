@@ -1,14 +1,14 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Filament\Resources\EmailResource\Pages;
+namespace Loomiq\FilamentEmail\Filament\Resources\EmailResource\Pages;
 
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
 use Filament\Resources\Pages\ListRecords\Tab;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Builder;
-use RickDBCN\FilamentEmail\Filament\Resources\EmailResource;
-use RickDBCN\FilamentEmail\Support\Utils;
+use Loomiq\FilamentEmail\Filament\Resources\EmailResource;
+use Loomiq\FilamentEmail\Support\Utils;
 
 class ListEmails extends ListRecords
 {

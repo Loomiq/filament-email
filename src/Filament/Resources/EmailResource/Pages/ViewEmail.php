@@ -1,10 +1,10 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Filament\Resources\EmailResource\Pages;
+namespace Loomiq\FilamentEmail\Filament\Resources\EmailResource\Pages;
 
 use Filament\Resources\Pages\ViewRecord;
 use Illuminate\Contracts\Support\Htmlable;
-use RickDBCN\FilamentEmail\Filament\Resources\EmailResource;
+use Loomiq\FilamentEmail\Filament\Resources\EmailResource;
 
 class ViewEmail extends ViewRecord
 {

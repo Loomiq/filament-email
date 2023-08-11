@@ -1,6 +1,6 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Filament\Resources;
+namespace Loomiq\FilamentEmail\Filament\Resources;
 
 use Filament\Forms\Components\Fieldset;
 use Filament\Forms\Components\Tabs;
@@ -14,11 +14,11 @@ use Filament\Tables\Actions\Action;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Support\Facades\Mail;
-use RickDBCN\FilamentEmail\Filament\Resources\EmailResource\Pages\ListEmails;
-use RickDBCN\FilamentEmail\Filament\Resources\EmailResource\Pages\ViewEmail;
-use RickDBCN\FilamentEmail\Mail\ResendMail;
-use RickDBCN\FilamentEmail\Models\Email;
-use RickDBCN\FilamentEmail\Support\Utils;
+use Loomiq\FilamentEmail\Filament\Resources\EmailResource\Pages\ListEmails;
+use Loomiq\FilamentEmail\Filament\Resources\EmailResource\Pages\ViewEmail;
+use Loomiq\FilamentEmail\Mail\ResendMail;
+use Loomiq\FilamentEmail\Models\Email;
+use Loomiq\FilamentEmail\Support\Utils;
 
 class EmailResource extends Resource
 {

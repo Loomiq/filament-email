@@ -1,8 +1,8 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Listeners;
+namespace Loomiq\FilamentEmail\Listeners;
 
-use RickDBCN\FilamentEmail\Models\Email;
+use Loomiq\FilamentEmail\Models\Email;
 
 class FilamentEmailLogger
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Mail;
+namespace Loomiq\FilamentEmail\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
-use RickDBCN\FilamentEmail\Models\Email;
+use Loomiq\FilamentEmail\Models\Email;
 
 class ResendMail extends Mailable
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Filament\Resources;
+namespace Loomiq\FilamentEmail\Filament\Resources;
 
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables\Table;
-use RickDBCN\FilamentEmail\Filament\Resources\IntegrationResource\Pages\ListIntegrations;
-use RickDBCN\FilamentEmail\Filament\Resources\IntegrationResource\Pages\ViewIntegration;
-use RickDBCN\FilamentEmail\Models\Integration;
-use RickDBCN\FilamentEmail\Support\Utils;
+use Loomiq\FilamentEmail\Filament\Resources\IntegrationResource\Pages\ListIntegrations;
+use Loomiq\FilamentEmail\Filament\Resources\IntegrationResource\Pages\ViewIntegration;
+use Loomiq\FilamentEmail\Models\Integration;
+use Loomiq\FilamentEmail\Support\Utils;
 
 class IntegrationResource extends Resource
 {

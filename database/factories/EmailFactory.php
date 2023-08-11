@@ -1,9 +1,9 @@
 <?php
 
-namespace RickDBCN\FilamentEmail\Database\Factories;
+namespace Loomiq\FilamentEmail\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use RickDBCN\FilamentEmail\Models\Email;
+use Loomiq\FilamentEmail\Models\Email;
 
 class EmailFactory extends Factory
 {
