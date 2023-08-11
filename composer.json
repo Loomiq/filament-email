@@ -1,6 +1,6 @@
 {
     "name": "loomiq/filament-email",
-    "description": "Control everything regarding emails in one place.",
+    "description": "Control everything regarding emails with one plugin.",
     "keywords": [
         "Loomiq",
         "laravel",
